@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище itsteptestModel" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.6" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="Хранилище itsteptestModelContainer">
+    <EntitySet Name="comments" EntityType="Хранилище itsteptestModel.comments" store:Type="Tables" Schema="itsteptest" />
+    <EntitySet Name="groups" EntityType="Хранилище itsteptestModel.groups" store:Type="Tables" Schema="itsteptest" />
+    <EntitySet Name="messages" EntityType="Хранилище itsteptestModel.messages" store:Type="Tables" Schema="itsteptest" />
+    <EntitySet Name="questions" EntityType="Хранилище itsteptestModel.questions" store:Type="Tables" Schema="itsteptest" />
+    <EntitySet Name="results" EntityType="Хранилище itsteptestModel.results" store:Type="Tables" Schema="itsteptest" />
+    <EntitySet Name="roles" EntityType="Хранилище itsteptestModel.roles" store:Type="Tables" Schema="itsteptest" />
+    <EntitySet Name="subjects" EntityType="Хранилище itsteptestModel.subjects" store:Type="Tables" Schema="itsteptest" />
+    <EntitySet Name="tests" EntityType="Хранилище itsteptestModel.tests" store:Type="Tables" Schema="itsteptest" />
+    <EntitySet Name="users" EntityType="Хранилище itsteptestModel.users" store:Type="Tables" Schema="itsteptest" />
+    <EntitySet Name="variants" EntityType="Хранилище itsteptestModel.variants" store:Type="Tables" Schema="itsteptest" />
+  </EntityContainer>
+  <EntityType Name="comments">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="text" Type="tinytext" Nullable="false" />
+    <Property Name="user" Type="int" Nullable="false" />
+    <Property Name="test" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="groups">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="varchar" Nullable="false" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="messages">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="text" Type="longtext" Nullable="false" />
+    <Property Name="sender" Type="int" Nullable="false" />
+    <Property Name="recepient" Type="int" Nullable="false" />
+    <Property Name="readed" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="questions">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="text" Type="longtext" Nullable="false" />
+    <Property Name="test" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="results">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="test" Type="int" Nullable="false" />
+    <Property Name="user" Type="int" Nullable="false" />
+    <Property Name="balls" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="roles">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="varchar" Nullable="false" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="subjects">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="varchar" Nullable="false" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="tests">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="subject" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="users">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="surname" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="address" Type="varchar" MaxLength="80" />
+    <Property Name="phone" Type="varchar" MaxLength="45" />
+    <Property Name="email" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="password" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="activate" Type="int" Nullable="false" />
+    <Property Name="group" Type="int" />
+    <Property Name="role" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="variants">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="text" Type="longtext" Nullable="false" />
+    <Property Name="true" Type="int" Nullable="false" />
+    <Property Name="question" Type="int" Nullable="false" />
+  </EntityType>
+</Schema>

@@ -1,0 +1,84 @@
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\bin\ItStepAcademyTest.dll
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\bin\ItStepAcademyTest.pdb
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\bin\Antlr3.Runtime.dll
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\bin\EntityFramework.dll
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\bin\Newtonsoft.Json.dll
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\bin\System.Net.Http.Formatting.dll
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\bin\System.Web.Http.dll
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\bin\System.Web.Http.WebHost.dll
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\bin\System.Web.Mvc.dll
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\bin\System.Web.Optimization.dll
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\bin\System.Web.Providers.dll
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\bin\System.Web.Razor.dll
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\bin\System.Web.WebPages.Deployment.dll
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\bin\System.Web.WebPages.dll
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\bin\System.Web.WebPages.Razor.dll
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\bin\WebGrease.dll
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\bin\EntityFramework.xml
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\bin\Newtonsoft.Json.xml
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\bin\System.Net.Http.Formatting.xml
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\bin\System.Web.Http.xml
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\bin\System.Web.Http.WebHost.xml
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\bin\System.Web.Mvc.xml
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\bin\System.Web.Razor.xml
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\bin\System.Web.WebPages.xml
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\bin\System.Web.WebPages.Deployment.xml
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\bin\System.Web.WebPages.Razor.xml
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\bin\ru\EntityFramework.resources.dll
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\bin\ru\System.Net.Http.Formatting.resources.dll
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\bin\ru\System.Web.Http.resources.dll
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\bin\ru\System.Web.Http.WebHost.resources.dll
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\bin\ru\System.Web.Providers.resources.dll
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\bin\ru\System.Web.Razor.resources.dll
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\obj\Debug\ItStepAcademyTest.csprojResolveAssemblyReference.cache
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\obj\Debug\ItStepAcademyTest.dll
+C:\Users\temich1608\Documents\Visual Studio 2012\Projects\ItStepAcademyTest\ItStepAcademyTest\obj\Debug\ItStepAcademyTest.pdb
+C:\Git\step_testing\ItStepAcademyTest\bin\ItStepAcademyTest.dll
+C:\Git\step_testing\ItStepAcademyTest\bin\ItStepAcademyTest.pdb
+C:\Git\step_testing\ItStepAcademyTest\bin\Antlr3.Runtime.dll
+C:\Git\step_testing\ItStepAcademyTest\bin\EntityFramework.dll
+C:\Git\step_testing\ItStepAcademyTest\bin\Microsoft.Web.Infrastructure.dll
+C:\Git\step_testing\ItStepAcademyTest\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Git\step_testing\ItStepAcademyTest\bin\Newtonsoft.Json.dll
+C:\Git\step_testing\ItStepAcademyTest\bin\System.Net.Http.Formatting.dll
+C:\Git\step_testing\ItStepAcademyTest\bin\System.Web.Http.dll
+C:\Git\step_testing\ItStepAcademyTest\bin\System.Web.Http.WebHost.dll
+C:\Git\step_testing\ItStepAcademyTest\bin\System.Web.Mvc.dll
+C:\Git\step_testing\ItStepAcademyTest\bin\System.Web.Optimization.dll
+C:\Git\step_testing\ItStepAcademyTest\bin\System.Web.Providers.dll
+C:\Git\step_testing\ItStepAcademyTest\bin\System.Web.Razor.dll
+C:\Git\step_testing\ItStepAcademyTest\bin\System.Web.WebPages.Deployment.dll
+C:\Git\step_testing\ItStepAcademyTest\bin\System.Web.WebPages.dll
+C:\Git\step_testing\ItStepAcademyTest\bin\System.Web.WebPages.Razor.dll
+C:\Git\step_testing\ItStepAcademyTest\bin\WebGrease.dll
+C:\Git\step_testing\ItStepAcademyTest\bin\EntityFramework.xml
+C:\Git\step_testing\ItStepAcademyTest\bin\Newtonsoft.Json.xml
+C:\Git\step_testing\ItStepAcademyTest\bin\System.Net.Http.Formatting.xml
+C:\Git\step_testing\ItStepAcademyTest\bin\System.Web.Http.xml
+C:\Git\step_testing\ItStepAcademyTest\bin\System.Web.Http.WebHost.xml
+C:\Git\step_testing\ItStepAcademyTest\bin\System.Web.Mvc.xml
+C:\Git\step_testing\ItStepAcademyTest\bin\System.Web.Razor.xml
+C:\Git\step_testing\ItStepAcademyTest\bin\System.Web.WebPages.xml
+C:\Git\step_testing\ItStepAcademyTest\bin\System.Web.WebPages.Deployment.xml
+C:\Git\step_testing\ItStepAcademyTest\bin\System.Web.WebPages.Razor.xml
+C:\Git\step_testing\ItStepAcademyTest\bin\ru\EntityFramework.resources.dll
+C:\Git\step_testing\ItStepAcademyTest\bin\ru\System.Net.Http.Formatting.resources.dll
+C:\Git\step_testing\ItStepAcademyTest\bin\ru\System.Web.Http.resources.dll
+C:\Git\step_testing\ItStepAcademyTest\bin\ru\System.Web.Http.WebHost.resources.dll
+C:\Git\step_testing\ItStepAcademyTest\bin\ru\System.Web.Mvc.resources.dll
+C:\Git\step_testing\ItStepAcademyTest\bin\ru\System.Web.Optimization.resources.dll
+C:\Git\step_testing\ItStepAcademyTest\bin\ru\System.Web.Providers.resources.dll
+C:\Git\step_testing\ItStepAcademyTest\bin\ru\System.Web.Razor.resources.dll
+C:\Git\step_testing\ItStepAcademyTest\bin\ru\System.Web.WebPages.resources.dll
+C:\Git\step_testing\ItStepAcademyTest\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Git\step_testing\ItStepAcademyTest\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Git\step_testing\ItStepAcademyTest\obj\Debug\ItStepAcademyTest.csprojResolveAssemblyReference.cache
+C:\Git\step_testing\ItStepAcademyTest\obj\Debug\ItStepAcademyTest.dll
+C:\Git\step_testing\ItStepAcademyTest\obj\Debug\ItStepAcademyTest.pdb

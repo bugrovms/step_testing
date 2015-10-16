@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="itsteptestModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="itsteptestEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="comments" EntityType="itsteptestModel.comments" />
+    <EntitySet Name="groups" EntityType="itsteptestModel.groups" />
+    <EntitySet Name="messages" EntityType="itsteptestModel.messages" />
+    <EntitySet Name="questions" EntityType="itsteptestModel.questions" />
+    <EntitySet Name="results" EntityType="itsteptestModel.results" />
+    <EntitySet Name="roles" EntityType="itsteptestModel.roles" />
+    <EntitySet Name="subjects" EntityType="itsteptestModel.subjects" />
+    <EntitySet Name="tests" EntityType="itsteptestModel.tests" />
+    <EntitySet Name="users" EntityType="itsteptestModel.users" />
+    <EntitySet Name="variants" EntityType="itsteptestModel.variants" />
+  </EntityContainer>
+  <EntityType Name="comments">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="text" Type="String" Nullable="false" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="user" Type="Int32" Nullable="false" />
+    <Property Name="test" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="groups">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="messages">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="text" Type="String" Nullable="false" MaxLength="1073741823" Unicode="false" FixedLength="false" />
+    <Property Name="sender" Type="Int32" Nullable="false" />
+    <Property Name="recepient" Type="Int32" Nullable="false" />
+    <Property Name="readed" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="questions">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="text" Type="String" Nullable="false" MaxLength="1073741823" Unicode="false" FixedLength="false" />
+    <Property Name="test" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="results">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="test" Type="Int32" Nullable="false" />
+    <Property Name="user" Type="Int32" Nullable="false" />
+    <Property Name="balls" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="roles">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="subjects">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tests">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="subject" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="users">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="surname" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="address" Type="String" MaxLength="80" Unicode="false" FixedLength="false" />
+    <Property Name="phone" Type="String" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="email" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="password" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="activate" Type="Int32" Nullable="false" />
+    <Property Name="group" Type="Int32" />
+    <Property Name="role" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="variants">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="text" Type="String" Nullable="false" MaxLength="1073741823" Unicode="false" FixedLength="false" />
+    <Property Name="true" Type="Int32" Nullable="false" />
+    <Property Name="question" Type="Int32" Nullable="false" />
+  </EntityType>
+</Schema>
